@@ -2,18 +2,16 @@ const express = require('express')
 const app = express()
 const port = 3000
 
-// app.get('/', (req, res) => {
-//   res.send('Hello World!')
-// })
+// router path 
+appp.get('/',(req,res) =>{
+    res.send('hello world!')
+})
+appp.get('/about',(req,res) =>{
+    res.send('divyansh agrawal!')
+})
+appp.get('/team',(req,res) =>{
+    res.send('hi devu! ')
+})
 
 
 
-
-
-
-// server start
- app.listen(port, () => {
- console.log(`server start listening on port localhost: ${port}`)
- //template string formate to writenodemon
- })
-// console.log(express)
